@@ -1,0 +1,42 @@
+<h1>Поиск минимального и максимального числа</h1>
+<p class="all-elements"></p>
+<button class="min">Найти минимальное число</button>
+<button class="max">Найти максимальное число</button>
+<p>Минимальное число: <span class="minNumber"></span></p>
+<p>Максимальное число: <span class="maxNumber"></span></p>
+
+<script>
+    let array = [1, 7, -2, 3, 153, 0]
+
+    const allElementsParragrath = document.querySelector('.all-elements')
+
+    const minNumberEl = document.querySelector('.minNumber');
+    const maxNumberEl = document.querySelector('.maxNumber');
+
+    const minNumberButtoneEl = document.querySelector('.min');
+    const maxNumberButtoneEl = document.querySelector('.max');
+
+    for (const number of array){
+        allElementsParragrath.textContent += `${number}, `
+    }
+
+    minNumberButtoneEl.onclick = function(){
+        let smallestNumber = array[0]
+        for (const number of array){
+            if (number < smallestNumber){
+                smallestNumber = number
+            }
+        }
+        minNumberEl.textContent = smallestNumber
+    }
+
+    maxNumberButtoneEl.onclick = function(){
+        let biggestNumber = array[0]
+        for (const number of array){
+            if (number > biggestNumber){
+                biggestNumber = number
+            }
+        }
+        maxNumberEl.textContent = biggestNumber
+    }
+</script>
