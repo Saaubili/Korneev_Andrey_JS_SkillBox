@@ -1,0 +1,23 @@
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #4aa84d;
+    color: white;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.ItemsList li {
+    font-size: 20px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+}

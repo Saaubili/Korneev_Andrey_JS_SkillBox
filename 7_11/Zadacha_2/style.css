@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.AddHeight {
+    background-color: #56c05a;
+    color: white;
+}
+
+.FilterHeight {
+    background-color: #ecad37;
+    color: white;
+}
+
+.AddHeight:hover {
+    background-color: #45a049;
+}
+
+.FilterHeight:hover {
+    background-color: #ce9732;
+}
+
+.HeightsList {
+    margin-top: 20px;
+}
+
+.HeightsList li {
+    margin-bottom: 6px;
+    font-weight: 400;
+    font-size: 16px;
+}
