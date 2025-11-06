@@ -1,0 +1,23 @@
+body {
+    margin-left: 30px;
+    background-color: rgb(44, 44, 44);
+}
+
+.preview {
+    margin-bottom: 40px;
+}
+
+.preview img {
+    width: 120px;
+    height: 100px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+
+#fullsize {
+    width: 595px;
+    height: 400px;
+    display: flex;
+    background-color: rgb(66, 66, 66);
+}
