@@ -43,11 +43,12 @@ form.addEventListener("submit", (event) => {
 
     const row = document.createElement("tr");
     row.innerHTML = `
-        <td>${name}</td>
-        <td>${weight}</td>
-        <td>${distance}</td>
-        <td>${cost}</td>
+    <td>${name}</td>
+    <td>${weight}</td>
+    <td>${distance}</td>
+    <td>${cost.toFixed(2)} руб.</td>
     `;
+
 
     table.querySelector("tbody").appendChild(row);
 
