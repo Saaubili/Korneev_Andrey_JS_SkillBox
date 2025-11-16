@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Всплывающее окно</title>
+    <style>
+        body{
+            background-color: rgb(181, 181, 192);
+        }
+
+        .popUpCard{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            font-weight: bold;
+            background-color: white;
+            width: 700px;
+            height: 200px;
+            border-radius: 10px;
+
+            display: flex;
+            align-items: center;
+        }
+
+        .popUpCard img {
+            width: 130px;
+            height: 100%;
+            object-fit: contain;
+            margin-right: 30px;
+            margin-left: 20px;
+        }
+
+        .popUpCard p {
+            font-size: 22px;
+            margin-left: 50px;
+        }
+
+        .popUpCard button {
+            padding: 10px 20px;
+            margin-left: 50px;
+            margin-right: 20px;
+            
+            background: #5773f3;
+
+            font-weight: bold;
+            font-size: 20px;
+
+            color: black;
+            border-radius: 12px;
+        }
+
+        .popUpCard button:hover{
+            background: #3a53c4;
+            color: white;
+        }
+
+
+        .popUpContentWrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <script src="index.js"></script>
+</body>
+</html>
