@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дизайн карты</title>
+        <style>
+        input{
+            margin-bottom: 20px;
+        }
+        select{
+            margin-bottom: 20px;
+        }
+        #card {
+            width: 300px;
+            height: 180px;
+            background: lightgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            border: 2px solid #000000;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Дизайн своей банковской карты</h2>
+
+    <input id="cardText" type="text">
+
+    <br>
+
+    <select id="colorSelect">
+        <option value="red">Красный</option>
+        <option value="blue">Синий</option>
+        <option value="green">Зелёный</option>
+    </select>
+
+    <p id="card">Текст карты</p>
+    <script src="index.js"></script>
+</body>
+</html>
