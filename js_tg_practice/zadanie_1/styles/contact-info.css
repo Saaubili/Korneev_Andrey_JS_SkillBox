@@ -1,0 +1,23 @@
+.contact-info{
+    margin-top: 20px;
+    padding: 12px 12px 0px 12px;
+    border-radius: 12px;
+    height: 92px;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.contact-info_text{
+    color: white;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.contact-info_gmail{
+    margin-top: 8px;
+    color: #DDDDDD;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 150%;
+}

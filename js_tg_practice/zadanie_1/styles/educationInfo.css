@@ -1,0 +1,66 @@
+.education-info{
+    width: 268px;
+    padding: 12px;
+}
+
+.education-info_list{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.education-info_list-item{
+    width: 116px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    
+}
+
+
+.education-info_list-item.selected{
+    background-color: #28D979;
+    color: #EBF9F2;
+}
+
+.education-info_header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    line-height: 150%;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.education-info_content-header{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.education-info_content-hashtegs{
+    color: #149063;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 150%;
+    gap: 2px
+}
+
+.education-info_content-hashtegs.selected{
+    color: #EBF9F2;
+}
+
+.education-info_content-place{
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 10px;
+}
